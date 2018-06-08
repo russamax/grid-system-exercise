@@ -59,7 +59,7 @@ body html{
 .whitebox {
     background-color: white;
     z-index: 99;
-    top: 25%;
+    top: 50px;
     width: 100%;
     height: 30px;
 }
