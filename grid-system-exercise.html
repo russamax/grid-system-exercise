@@ -1,138 +1,117 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/grid-system-exercise.css">
-    <title>Codeup design</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+<link rel="stylesheet" href="css/grid-system-exercise.css">
+
+<title>Codeup Design</title>
 </head>
-
 <body>
 
-<div class="container-fluid">
-        <div class="row"> <div class="col-12">
-            <nav class="nav whitebox">
-                <div class="nav "><h1>codeup design</h1></div>
-                <ul class="nav justify-content-end">
+<div class="container-fluid main">
+    <ul class="list-group list-group-flush"> <!-- used listgroup to separate page into 2 parts separated by centered horizontal line -->
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contact</a>
-                    </li>
+        <li class="list-group"> <!-- UPPER SECTION: from logo navbar to circles -->
+            <div>
+                <nav class="navbar whitebox  navbar-light bg-light">
+                    <img class="logopic" src="./img/logo.png">
+                    <h1 id="cod1">codeup design</h1>
+                    <ul class="nav smnavleft">
 
-                </ul>
-            </nav>
+                        <li class="nav-item  navtags "> <!-- links in navbar -->
+                            <a class="nav-link smnavleft" href="#"><h5>SERVICES</h5></a></li>
 
-                </div>
+                        <li class="nav-item  navtags smnavleft">
+                            <a class="nav-link smnavleft" href="#"><h5>WORK</h5></a></li></ul>
 
-                <!--img-->
+                        <ul class="nav smnavright" ><li class="nav-item  navtags smnavright">
+                            <a class="nav-link " href="#"><h5>BLOG</h5></a></li>
 
-            </div>
-        </div>
+                        <li class="nav-item  navtags smnavright">
+                            <a class="nav-link " href="#"><h5>CONTACT</h5></a></li>
+                    </ul>
+                </nav>
 
-        <div>
+            </div> <!-- closes out whitebox with navbar logo and links -->
 
+            <div class="infotext jumbotron jumbotron-fluid"> <!-- jumbotron for middle text/circles -->
+                <h1 id="visdesign">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+                <h5 id="city">FROM PARK CITY, UTAH</h5>
 
+                <div class="row">
+                    <ul class="col text-center">
+                        <li class="dot dotred"><div class="dot-text"><h5>DESIGN</h5></div></li>
+                        <li class="dot dotorange"><div class="dot-text"><h5>DEVELOP</h5></div></li>
+                        <li class="dot dotgreen"><div class="dot-text"><h5>SUPPORT</h5></div></li>
+                        <li class="dot dotblue"><div class="dot-text"><h5>HOST</h5></div></li>
 
-
-
-
-
-
-        </div>
-    </div>
-
-
-
-
-    <!--!Max Code Jumbo-->
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-                    <h4 class="lead">FROM PARK CITY, UTAH<h4/>
-                        <ul>
-                            <li class="dot dotred"><div class="dot-text">Design</div></li>
-                            <li class="dot dotorange"><div class="dot-text">Develop</div></li>
-                            <li class="dot dotgreen"><div class="dot-text">Support</div></li>
-                            <li class="dot dotblue"><div class="dot-text">Host</div></li>
-                        </ul>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
+
+        </li> <!-- closes out upper section -->
+
+        <li class="list-group"> <!--LOWER SECTION: -->
 
 
-    <div class="container">
 
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="img/apple-ipad.jpg/" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text"><small class="text-muted">Featured Project</small></p>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/apple-ipad.jpg/" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">Featured Project</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/macbook.jpg/" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">Featured Project</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="img/macbook.jpg/" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text"><small class="text-muted">Featured Project</small></p>
+                <div class="row">
+
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/man.jpg/" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">Featured Project</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/security.jpg/" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">Featured Project</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="row">
 
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="img/man.jpg/" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text"><small class="text-muted">Featured Project</small></p>
-                    </div>
-                </div>
+
+
             </div>
 
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="img/security.jpg/" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text"><small class="text-muted">Featured Project</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
 
-
-    </div>
-
-
-
-
-
-
-
-
-
-</div>
+        </li>
+    </ul>
+</div>>
 
 
 <!-- Optional JavaScript -->
