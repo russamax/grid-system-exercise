@@ -1,0 +1,83 @@
+
+## [start] START STRUCTURE
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=""utf-8">
+    <title></title>
+</head>
+<body>
+<div id="header">
+    <header>
+        <h1 id="#top"><nav></nav></h1>
+    </header>
+    <p></p>
+</div>
+<hr>
+<div id="">
+    <h2></h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h2></h2>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <h2></h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<hr>
+<h2></h2>
+<div id="images">
+    <img src="" alt="" style="width:35px;height:40px;">
+    <img src="" alt="" style="width:35px;height:40px;">
+</div>
+<div id="images">
+    <img src="" alt="" style="width:35px;height:40px;">
+    <img src="" alt="" style="width:35px;height:40px;">
+</div>
+<div>
+    <h2</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <div>
+        <h5></h5>
+    </div>
+    <div>
+        <a href="#top">Go to the top of the page</a>
+    </div>
+</div>
+</body>
+</html>
+
+## [end] START STRUCTURE
